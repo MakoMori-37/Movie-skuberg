@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+https://api.themoviedb.org/3/search/movie?api_key=810a8dca8143376515eecaef3d5d2436&query=a
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+2. ให้ทำการสมัคร https://www.themoviedb.org/ สมัครเรียบร้อยแล้วเราจะได้สิทธิ์ในการเรียกใช้ API ให้เราดูเลข api key ของเราในหน้า setting  API จากนั้นให้ เรียก API ด้านล้าง
 
-In the project directory, you can run:
+https://api.themoviedb.org/3/search/movie?api_key=<<api_key>>&query=a
 
-### `yarn start`
+ให้เราออกแบบหน้าตาเว็บไซต์ หรือ แอพ แสดงข้อมูลของภาพยนต์ให้สวยงาม พร้อมทั้งมีฟังก์ชัน 
+ค้นหาชื่อของภาพยนต์
+สามารถเพิ่มราคาของหนังแต่ละเรื่อง
+สามารถเลือกสินค้าใส่ตะกร้าได้
+เมื่อซื้อหนังมากกว่า 3 รายการลด 10%, มากกว่า 5 รายการลด 20%
+เมื่อทำการการปิดเว็บไซต์ และ มีการเปิดขึ้นมาใหม่สินค้าที่เคยเลือกไปจะยังคงอยู่ในตะกร้าสินค้า
+สามารถกด Clear ตะกร้าสินค้าได้
+เมื่อกดสั่งซื้อสินค้าแล้วให้มี Popup show ว่าต้องโอนเงินไปที่ไหน ภายในระยะเวลา 1 นาที (แสดงตัวเลขเวลาในการนับถอยหลังด้วย)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*หมายเหตุ
+ระยะเวลาในการทำ 3 วัน
+ทำเท่าที่ทำได้ครับ
+ให้อัพขึ้น git โดยใช้ github หรือ gitlab ก็ได้ พร้อมทั้งไฟล์ Readme ขั้นตอนการรันโปรเจค
+ทั้งสองข้อ ให้ใช้ Angular2+ ถ้าไม่ได้จริงๆ ให้ใช้ Framework ที่ตัวเอง ถนัด
