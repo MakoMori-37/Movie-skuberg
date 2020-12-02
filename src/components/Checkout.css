@@ -1,0 +1,68 @@
+.checkout{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcfbfa;
+    height: max-content;    
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.checktext{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 18px 18px;
+    border-bottom: 1px solid grey;
+    font-size: 26px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.chicon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 207, 204);
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.chicon:hover{
+    background-color: rgb(233, 230, 230);
+    
+}
+
+.chicon > .MuiSvgIcon-root{
+    color: gray ;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.check__left{
+    flex: 0.6;
+}
+
+
+.check__right{
+    flex: 0.4;
+    display: flex;
+   margin-top: 2%;
+    justify-content: center;
+    
+}
+
+.product{
+    display: flex;
+    align-items: center;
+   margin-left: 10%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
